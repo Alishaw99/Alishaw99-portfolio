@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" type="image/png" href="photos/logo.png"/>
+  <meta name="apple-mobile-web-app-title" content="Portfolio">
+  <link rel="shortcut icon" type="image/x-icon" href="photos/logo.png" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="mask-icon" type="image/x-icon" href="photos/logo.jpg" color="#111" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,100;1,300&display=swap" rel="stylesheet">
+  <title>Home | Tariq</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+  <!--Animation js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+  <!--Animation js-->
+</head>
+<body translate="no" >
+ <!--Loader animation-->
+ <div id="loader" class="loader-container">
+  <div class="pulsing-circle">
+    <div class="pulsing-circle-dot"></div>
+  </div>
+</div>
+<!--Loader animation-->
+<!-- START OF THE NAV -->
+<nav id="navbar" class="nav">
+  <div class="logo">
+    <a href="#"><h3> Syed Ali</h3></a>
+  </div>
+  <div class="menu">
+    <i style="font-size:2vh" id="menuBar" class="fa" onclick="ToggleMenu()">&#xf0c9;</i>
+    <i style=" font-size:2vh" id="closeMenu" class="fa-solid fa-circle-xmark" onclick="ToggleMenu()"></i>
+  </div>
+  <ul id="menu-items" class="nav-list">
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#about">About</a>
+    </li>    
+    <li>
+      <a href="#Skill">Skills</a>
+    </li>                   
+    <li>
+      <a href="#projects">Projects</a>
+    </li>
+    <li>
+      <a href="#services">Services</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<!-- END OF THE NAV -->
+<!-- START OF WELCOME SECTION -->
+  <div id="about-me">
+    <section id="welcome-section" class="welcome-section">
+      <img class="pro fadeInUp-animation" src="photos/abk.png">
+      <h1 class="fadeInUp-animation">Hello, Tariq here!</a></h1>
+      <p class=" para fadeInUp-animation" style="text-align: center; font-size: 2.5vh; font-weight: 700;">I'm a <span class="text heading"></span></p> <br>
+      <div class="contact-links fadeInUp-animation">
+        <a href="https://www.linkedin.com/in/syedtariq-ali/"target="_blank"class="btn contact-details">
+          <i class="fab fa-linkedin" style="font-size: 4vh;"></i> 
+        </a>  
+        <a href="https://github.com/Alishaw99" class="btn contact-details" target="_blank">
+          <i class="fab fa-github" style="font-size: 4vh;"></i>
+        </a>
+        <a href="" class="btn contact-details" target="_blank">
+          <i class='fab fa-hackerrank' style="font-size: 4vh;"></i>
+        </a>
+        <a href="https://x.com/tariqsyed" class="btn contact-details" target="_blank">
+          <i class="fab fa-twitter" style="font-size: 4vh;"></i>
+        </a>
+        <a href="" target="_blank" class="btn contact-details">
+          <i class="fab fa-instagram" style="font-size: 4vh;"></i> 
+        </a>
+      </div>
+    </section>
+  </div>
+  <!--Back to top button-->
+  <div class="navigator">
+    <a href="#">
+      <i class="fa-solid fa-angle-up"></i>
+    </a>
+  </div>
+  <!--Back to top button-->
+<!-- END OF WELCOME SECTION -->
+<!-- START OF ABOUT SECTION-->
+<div id="about"><br>
+  <h1><span class="heading">About</span> Section</h1><br>
+  <span class="line line-2"></span>
+  <span id="centeredtxt"><p class="para fade-in-right-target">
+   Hey there, reader! I’m Syed Ali, a passionate Data Analyst and Researcher, deeply engaged in data science, machine learning, and deep learning. With a strong foundation in statistics, monitoring, and evaluation, I’m always excited to explore new challenges and create data-driven solutions.
+    
+    Currently, I’m working on expanding my knowledge in MLOps and database management while focusing on high-impact projects in data science. I love collaborating with like-minded professionals to solve complex problems and uncover actionable insights through the power of data.
+    
+    Here are some of the domains I’m currently interested in:</p>
+  <ul class="para fade-in-up-target">
+    <li>◇ Data Science</li>
+    <li>◇ Machine Learning</li>
+    <li>◇ Deep Learning</li>
+    <li>◇ Statistics </li>
+    <li>◇ Monitoring and Evaluation </li>
+    <li>◇ Project Management and Evaluation </li>
+  </ul> </span><br>
+  <h1 id="Skill">My <span class="heading">Skills</span></h1><br>
+  <div id="Buttons">
+    <button class="skill fade-in-up-target"><p><img src="photos/Sql.png" alt="Sql logo" title="Sql">&#9733;&#9733;&#9733;&#9733;&#9733;</p></button>
+    <button class="skill fade-in-up-target"><p><img src="photos/python.svg" alt="python logo" title="python">&#9733;&#9733;&#9733;&#9733;</p></button>
+    <button class="skill fade-in-up-target"><p><img src="photos/jupyter.svg" alt="jupyter notebook logo" title="jupyter notebook">&#9733;&#9733;&#9733;</p></button>
+    <button class="skill fade-in-up-target"><p><img src="photos/Machine Learning.png" alt="Machine Learning logo" title="Machine Learning">&#9733;&#9733;&#9733;&#9733;</p></button>
+    <button class="skill fade-in-up-target"><p><img src="photos/Deep Learning.png" alt="Deep Learning" title="Deep Learning">&#9733;&#9733;&#9733;</p></button>
+    <button class="skill fade-in-up-target"><p><img src="photos/Data Science.png" alt="Data Science" title="Data Science">&#9733;&#9733;&#9733;&#9733;</p></button>
+    <button class="skill fade-in-up-target"><p><img src="photos/2tableau.svg" alt="tableau" title="tableau">&#9733;&#9733;&#9733;&#9733;</p></button>
+    <!-- <button class="skill fade-in-up-target"><p><img src="photos/tableau-software.svg" alt="Design" title="Graphic Design">&#9733;&#9733;&#9733;&#9733;</p></button>
+    <button class="skill fade-in-up-target"><p><img src="photos/cpp.png" alt="C++ logo" title="C++">&#9733;&#9733;</p></button>
+    <button class="skill fade-in-up-target"><p><img src="photos/marketing.png" alt="Marketing" title="Marketing">&#9733;&#9733;&#9733;&#9733;</p></button> -->
+  </div><br><br>
+  <h1 style="font-size: 5vh;" class="fade-in-right-target">My<span class="heading"> Journey</span></h1><br><br><br>
+  <div class="timeline ">
+    <div class="container right fade-in-right-target">
+      <div class="content">
+        <h3>Pakistan Center for Philanthropy (Sep 2005 - Sep 2011)</h3>
+        <p>Role: Senior Research Officer </p>
+        <p>Location: Islamabad, Pakistan</p>
+        <br>
+        <p>Skills: <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3"></i> <i class="fa-brands fa-bootstrap"></i> <i class="fa-brands fa-js"></i></p><br>
+        <a class="page-buttons" href="https://www.linkedin.com/company/pakistan-centre-for-philanthropy/" target="_blank">About Company</a>
+      </div>
+    </div>
+    <div class="container left fade-in-right-target">
+      <div class="content">
+        <h3>Strengthening Participatory Organization (Jul 2012 - Sep 2015)</h3>
+        <p>Role: Monitoring and Evaluation Lead </p>
+        <p>Location: Islamabad, Pakistan</p>
+        <br>
+        <p>Skills: <i class="fa-brands fa-linkedin"></i></p><br>
+        <a class="page-buttons" href="https://www.linkedin.com/search/results/all/?keywords=Strengthening%20Participatory%20Organization&sid=.x0" target="_blank">About Company</a>
+      </div>
+    </div>
+    <div class="container right fade-in-right-target">
+      <div class="content">
+        <h3>The World Bank Group (Aug 2015 - Mar 2017)</h3>
+        <p>Role: 
+          Monitoring and Evaluation Specialist(STC) </p>
+          <p>Location: Lahore, Pakistan</p>
+          <br>
+        <p>Skills: <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3"></i> <i class="fa-brands fa-bootstrap"></i> <i class="fa-brands fa-js"></i></p><br>
+        <a class="page-buttons" href="https://www.linkedin.com/company/world-bank-economic-development-institute/" target="_blank">About Company</a>
+      </div>
+    </div>
+    <div class="container left fade-in-right-target">
+      <div class="content">
+        <h3>Plan International (Jul 2016 - Mar 2018)</h3>
+        <p>Role: Manager Monitoring Evaluation and Research Consortium Coordination Unit: South Asia WASH Results Pro </p>
+        <p>Location: Islamabad, Pakistan</p>
+        <br>
+        <p>Skills: <i class="fa-brands fa-linkedin"></i></p><br>
+        <a class="page-buttons" href="https://www.linkedin.com/company/plan-international/" target="_blank">About Company</a>
+      </div>
+    </div>
+    <div class="container right fade-in-right-target">
+      <div class="content">
+        <h3>Strengthening Participatory Organization (Mar 2018 - Jun 2020)</h3>
+        <p>Role: 
+          Business Development Manager </p>
+          <p>Location: Islamabad , Pakistan</p>
+          <br>
+        <p>Skills: <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3"></i> <i class="fa-brands fa-bootstrap"></i> <i class="fa-brands fa-js"></i></p><br>
+        <a class="page-buttons" href="https://www.linkedin.com/company/spopk/" target="_blank">About Company</a>
+      </div>
+    </div>
+    <div class="container left fade-in-right-target">
+      <div class="content">
+        <h3>Direct Media Adverts (Jan 2022 - Dec 2023)</h3>
+        <p>Role: Research Data Analyst </p>
+        <p>Location: California, United States</p>
+        <br>
+        <p>Skills: <i class="fa-brands fa-linkedin"></i></p><br>
+        <a class="page-buttons" href="https://www.linkedin.com/search/results/all/?keywords=Direct%20Media%20Adverts&sid=kYh" target="_blank">About Company</a>
+      </div>
+    </div>
+    <div class="container right fade-in-right-target">
+      <div class="content">
+        <h3>JobTrain, Inc. (Dec 2024 - Present)</h3>
+        <p>Role: 
+          Senior Research Analyst </p>
+          <p>Location: California, United States</p>
+          <br>
+        <p>Skills: <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3"></i> <i class="fa-brands fa-bootstrap"></i> <i class="fa-brands fa-js"></i></p><br>
+        <a class="page-buttons" href="https://www.linkedin.com/company/jobtrain/" target="_blank">About Company</a>
+      </div>
+    </div>
+    <br><br>
+</div>
+<!-- END OF ABOUT SECTION -->
+<!-- START OF PROJECTS SECTION -->
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header" style="font-size: 5vh;">My <span class="heading"> Projects</span></h2><br>
+  <div class="projects-grid ">
+    <a href="https://github.com/Alishaw99/US-VISA-APPROVAL-PREDICTION" class="US-VISA-APPROVAL-PREDICTION">
+      <img class="project-image" src="photos/DALL·E 2025-02-02 03.15.26 - A digital artwork of a tech-inspired cover page for a GitHub repository, titled _US-VISA-APPROVAL-PREDICTION_. The design features a blend of data sci.webp" alt="US-VISA-APPROVAL-PREDICTION"/>
+        <p class="project-title">
+          <span class="code">&lt;</span>
+            Mini Minds Startup <i style="font-size: 1.5vh;" class="fa-solid fa-arrow-up-right-from-square"></i>
+          <span class="code">&#47;&gt;</span><br>
+          Skills: <i class="fa-brands fa-python"></i> <i class="fa-brands fa-css3"></i> <i class="fa-brands fa-bootstrap"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-git-alt"></i>
+        </p>
+    </a>
+    <a href="https://github.com/Alishaw99/GenAI-with-Langchain" class="project project-tile grid-b fade-in-up-target">
+      <img class="project-image" src="photos/GenAI-with-Langchain.webp" alt="StartUp project"/>
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          GenAI-with-Langchain
+          <i style="font-size: 1.5vh;" class="fa-solid fa-arrow-up-right-from-square"></i>
+          <span class="code">&#47;&gt;</span><br>
+          Skills: <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3"></i> <i class="fa-brands fa-bootstrap"></i> <i class="fa-brands fa-js"></i> 
+        </p>
+    </a>
+    <a href="https://github.com/Alishaw99/AI-Agents-from-Scratch-using-Ollama" class="project project-tile grid-c fade-in-up-target">
+      <img class="project-image" src="photos/AI-Agents-from-Scratch-using-Ollama.webp" alt="bootstrap-website"/>
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          AI-Agents-from-Scratch-using-Ollama <i style="font-size: 1.5vh;" class="fa-solid fa-arrow-up-right-from-square"></i>
+          <span class="code">&#47;&gt;</span><br>
+          Skills: <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-bootstrap"></i> 
+        </p>
+    </a> 
+    <a href="https://github.com/Alishaw99/Topic-Modelling-and-Labeling-app" class="project project-tile grid-d fade-in-up-target">
+      <img class="project-image" src="photos/Topic-Modeling-and-Labeling-App-powered-by-Whisper-and-Streamlit.webp" alt="pharma-website"/>
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Topic-Modeling-and-Labeling-App-powered-by-Whisper-and-Streamlit  <i style="font-size: 1.5vh;" class="fa-solid fa-arrow-up-right-from-square"></i>
+          <span class="code">&#47;&gt;</span><br>
+          Skills: <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3"></i> <i class="fa-brands fa-js"></i>
+        </p>
+    </a> 
+    <a href="https://github.com/Alishaw99/Exploratory_dataAnalysis " class="project project-tile grid-d fade-in-up-target">
+      <img class="project-image" src="photos/Exploratory_dataAnalysis.webp" alt="pharma-website"/>
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Exploratory_dataAnalysis<i style="font-size: 1.5vh;" class="fa-solid fa-arrow-up-right-from-square"></i>
+          <span class="code">&#47;&gt;</span><br>
+          Skills: <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3"></i> <i class="fa-brands fa-js"></i>
+        </p>
+    </a> 
+  </div>
+  <a class="btn btn-show-all" style="font-size: 2vh;">Coming soon<i class="fas fa-chevron-right"></i></a><br>
+</section>
+<!-- END OF PROJECTS SECTION -->
+<!-- START OF CONTACT SECTION -->
+  <section id="services" class="contact-section">
+    <div class="contact-section-header">
+      <h1 style="font-size: 5vh;"><span class="heading">Service</span> Details</h1>
+      <p style="color: white;">Prefer LinkedIn for Contact</p>
+    </div>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/syedtariq-ali/"target="_blank"class="btn contact-details">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>  
+      <a href="mailto:tariqham@gmail.com" class="btn contact-details">
+        <i class="fab fa-google fa-10px"></i> Mail
+      </a>
+      <a id="profile-link" href="https://github.com/Alishaw99" class="btn contact-details" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://x.com/tariqsyed" class="btn contact-details" target="_blank">
+        <i class="fab fa-twitter"></i> Twitter
+      </a>
+      <a href="" class="btn contact-details" target="_blank">
+        <i class="fab fa-facebook"></i> FaceBook
+      </a>
+    </div>
+    <div><br><br>
+      @Developed by  Syed Ali
+    </div>
+  </section>
+ <!-- END OF CONTACT SECTION -->
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
